@@ -29,7 +29,6 @@ public class DispatcherController {
     /*
      * 执行登陆
      * */
-
     @ResponseBody
     @RequestMapping("/doAJAXLogin")
     public Object doAJAXLogin(User user){

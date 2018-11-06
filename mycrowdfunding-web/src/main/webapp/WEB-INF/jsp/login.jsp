@@ -81,7 +81,7 @@
         }
         var userpswd = $("#userpswd").val();
         if (userpswd == "") {
-            layer.msg("用户的登陆账号不能为空，请输入",{time:3000,icon:5,shift:6},function () {});
+            layer.msg("用户的登陆密码不能为空，请输入",{time:3000,icon:5,shift:6},function () {});
             return;
         }
         //使用ajax提交数据
