@@ -92,7 +92,7 @@
                     "loginacct":loginacct,
                     "userpswd":userpswd
                 },
-                beforesend:function () {
+                beforeSend:function () {
                     loadingIndex = layer.msg('处理中', {icon: 16});
                 },
                 success:function (result) {
