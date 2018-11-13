@@ -1,4 +1,4 @@
-package com.nju.mycrowdfunding.bean;
+package com.nju.mycrowedfunding.bean;
 
 public class User {
     private int id;

@@ -1,8 +1,8 @@
-package com.nju.mycrowdfunding.service.impl;
+package com.nju.mycrowedfunding.service.impl;
 
-import com.nju.mycrowdfunding.bean.User;
-import com.nju.mycrowdfunding.dao.UserDao;
-import com.nju.mycrowdfunding.service.UserService;
+import com.nju.mycrowedfunding.bean.User;
+import com.nju.mycrowedfunding.dao.UserDao;
+import com.nju.mycrowedfunding.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

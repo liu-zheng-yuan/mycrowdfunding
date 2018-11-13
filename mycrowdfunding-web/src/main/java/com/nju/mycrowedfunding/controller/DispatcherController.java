@@ -1,8 +1,8 @@
 package com.nju.mycrowedfunding.controller;
 
-import com.nju.mycrowdfunding.bean.AJAXResult;
-import com.nju.mycrowdfunding.bean.User;
-import com.nju.mycrowdfunding.service.UserService;
+import com.nju.mycrowedfunding.bean.AJAXResult;
+import com.nju.mycrowedfunding.bean.User;
+import com.nju.mycrowedfunding.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -33,7 +33,7 @@ public class DispatcherController {
         //session.removeAttribute("loginUser");
         session.invalidate();
         //希望浏览器显示地址为主页 就需要重定向
-        return "redirect:login";
+        return "redirect:/login";
     }
     /*
      * 执行登陆

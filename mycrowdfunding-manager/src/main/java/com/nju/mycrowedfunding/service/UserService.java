@@ -1,6 +1,6 @@
-package com.nju.mycrowdfunding.service;
+package com.nju.mycrowedfunding.service;
 
-import com.nju.mycrowdfunding.bean.User;
+import com.nju.mycrowedfunding.bean.User;
 
 import java.util.List;
 

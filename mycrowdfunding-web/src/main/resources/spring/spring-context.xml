@@ -23,7 +23,7 @@
         </property>
     </bean>
     <bean id="mapperScannerConfigurer" class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-        <property name="basePackage" value="com.nju.mycrowdfunding.**.dao" />
+        <property name="basePackage" value="com.nju.mycrowedfunding.**.dao" />
     </bean>
 
     <!--数据库连接池是c3p0 增加c3p0的相关配置-->

@@ -1,7 +1,7 @@
 package com.nju.mycrowedfunding.controller;
 
-import com.nju.mycrowdfunding.bean.User;
-import com.nju.mycrowdfunding.service.UserService;
+import com.nju.mycrowedfunding.bean.User;
+import com.nju.mycrowedfunding.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

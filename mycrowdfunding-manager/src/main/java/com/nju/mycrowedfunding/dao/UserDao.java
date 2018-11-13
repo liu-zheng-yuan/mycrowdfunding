@@ -1,6 +1,6 @@
-package com.nju.mycrowdfunding.dao;
+package com.nju.mycrowedfunding.dao;
 
-import com.nju.mycrowdfunding.bean.User;
+import com.nju.mycrowedfunding.bean.User;
 import org.apache.ibatis.annotations.Select;
 
 import java.util.List;
