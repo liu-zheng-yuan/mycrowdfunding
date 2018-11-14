@@ -5,6 +5,7 @@ public class User {
     private String userName;
     private String loginacct;
     private String userpswd;
+    private String email;
 
     public String getLoginacct() {
         return loginacct;
@@ -36,5 +37,13 @@ public class User {
 
     public void setUserName(String userName) {
         this.userName = userName;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
     }
 }
